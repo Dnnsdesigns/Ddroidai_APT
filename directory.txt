@@ -1,0 +1,48 @@
+ddroidai-agentic-transformer/
+│
+├── agents/
+│   ├── __init__.py
+│   ├── master_agent.py
+│   ├── reasoning_agent.py
+│   ├── planning_agent.py
+│   ├── execution_agent.py
+│   └── feedback_agent.py
+│
+├── models/
+│   ├── __init__.py
+│   ├── hierarchical_transformer.py
+│   └── transformer_utils.py
+│
+├── datasets/
+│   ├── __init__.py
+│   ├── load_data.py
+│   └── preprocess_data.py
+│
+├── scripts/
+│   ├── train_model.py
+│   ├── evaluate_model.py
+│   └── generate_responses.py
+│
+├── config/
+│   └── config.yaml
+│
+├── utils/
+│   ├── logging_utils.py
+│   └── data_utils.py
+│
+├── gradio_app/
+│   ├── app.py
+│   └── requirements.txt
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_agents.py
+│   └── test_models.py
+│
+├── README.md
+├── requirements.txt
+├── config.json
+├── inference.py
+├── LICENSE
+├── app.py
+└── setup.py
