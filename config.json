@@ -1,0 +1,11 @@
+{
+  "model_type": "hierarchical_transformer",
+  "hidden_size": 1600,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 36,
+  "intermediate_size": 6400,
+  "hidden_act": "gelu",
+  "initializer_range": 0.02,
+  "layer_norm_eps": 1e-12,
+  "vocab_size": 50000
+}
